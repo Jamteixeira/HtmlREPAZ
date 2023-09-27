@@ -1,0 +1,125 @@
+
+.corTabela{
+    background-color: rgb(239, 240, 240);  
+}
+
+
+#menu {
+    background-color: rgb(239, 240, 240);  
+    display:grid;
+    font-style: normal;
+}
+
+#menu ul {
+    list-style: none;
+    text-align:center;
+}
+#menu ul li {
+      display: inline;
+    
+}
+
+#menu ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+
+#menu ul li a:hover { 
+    background-color: bisque;
+    margin-top: 0
+}
+#menu ul li a:hover {
+    transform: scale(1.2);
+}
+
+.galery {
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+.galery .fotos img {
+    width: 19.9%;
+}
+
+@keyframes animacao {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+    75% { margin-left: -300%; }
+    95% { margin-left: -300%; }
+    100% { margin-left: -400%; }
+}
+
+
+
+footer {
+    height:200px;
+    background-color: rgb(239, 240, 240);  
+    position:relative;
+    font-family:sans-serif;
+    
+}
+
+.fale-conosco{
+text-decoration: none;
+margin-left: 45px;
+float: left;
+font-family: Helvetica;
+
+
+}
+
+.redes-sociais{
+    margin-right: 45px;
+
+    float: left;
+
+}
+
+.localizacao{
+
+   float: left;
+
+}
+
+.doacoestexto{
+    margin-top: 100px;
+    text-align: center;
+    text-decoration:none;
+    font-family:'Times New Roman', serif;
+    font-size:30px;
+    height:700px;
+
+}
+
+.pag {
+
+    height: 500px;
+}
+
+.ati {
+
+    height: 500px;
+}
+
+.crit{
+    height: 500px;
+
+}
